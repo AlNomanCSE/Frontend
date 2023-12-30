@@ -614,9 +614,11 @@ body {
     text-decoration: none;
     color: #bbb;
 }
-.footer-list-item{
+
+.footer-list-item {
     margin-bottom: 1rem;
 }
+
 .contact p {
     font-size: 1.5rem;
     color: #bbb;
@@ -679,3 +681,26 @@ body {
 }
 
 /* end of footer */
+
+
+@media(max-width:1400px) {
+    .customer-card-wrapper {
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+
+    .customer-card:first-child {
+        margin-bottom: 3rem;
+    }
+
+    .main-part {
+        flex-direction: column;
+    }
+    .footer-list{
+        display: flex;
+    }
+    .footer-list-item{
+        margin-right: 3rem;
+    }
+}
