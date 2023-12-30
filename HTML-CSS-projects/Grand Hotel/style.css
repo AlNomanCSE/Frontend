@@ -307,3 +307,84 @@ body {
 }
 
 /* end of heading */
+
+
+/* about us */
+
+.about-us {
+    margin-left: 8rem;
+    display: flex;
+    background-color: #ddd;
+}
+
+.about-us-content {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    box-sizing: border-box;
+}
+
+.about-us-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.small-underline {
+    width: 9rem;
+    height: .1rem;
+    margin: 0 auto 1rem auto;
+    background-color: #b86e3a;
+}
+
+.big-underline {
+    width: 15rem;
+    height: .1rem;
+    background-color: #b86e3a;
+}
+
+.sub-heading {
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #b86e3a;
+    letter-spacing: .1rem;
+}
+
+.about-us-pragraph {
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 5rem;
+}
+
+.about-us-btn {
+    width: 15rem;
+    padding: .7rem .5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #b86e3a;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: .1rem solid #b86e3a;
+    outline: none;
+    cursor: pointer;
+}
+.btn-arrow{
+    margin-left: .5rem;
+    transition: margin-left .4s;
+}
+.about-us-btn:hover .btn-arrow{
+    margin-left: 1.5rem;
+}
+.about-us-image {
+    flex: 1 1;
+}
+
+
+
+/* end about us */
